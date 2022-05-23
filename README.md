@@ -1,24 +1,10 @@
-# sd-frontend
+# Bachelor's Degree Final Project - Stance Detection on Social Media
 
-## Project setup
-```
-npm install
-```
+Over the last few years, the amount of information shared on the internet has been steadily increasing, an important factor being the rise of social media, platforms that have become one of the main sources of this data. The information shared is really valuable since it can be processed to extract the opinions expressed in it.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+In this work I implement a system that allows us to detect the speaker's position on a topic. For this purpose, the social network Twitter has been used, extracting the publications shared on it, and making use of Natural Language Processing techniques.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+The topics covered have been really controversial issues in Spain during 2020, the independence of Catalonia, and the management of the Covid-19 crisis by the Spanish government.
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Frontend Project
+This repository contains a Vue project, it provides the interface for the stance detection data.
